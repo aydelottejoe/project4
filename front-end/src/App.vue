@@ -2,12 +2,12 @@
 <div id="app">
   <div class="header">
     <router-link to="/">
-      <div class="logo">
+     <!-- <div class="logo">
         <img src="/ordinary.png">
-      </div>
+      </div>-->
     </router-link>
     <div class="title">
-      <h1>Museum of Ordinary Objects</h1>
+      <h1>Family Photos</h1>
     </div>
   </div>
   <div class="content">
@@ -16,7 +16,7 @@
   <div class="footer">
     <router-link to="/admin" class="link">Admin </router-link>
     <a href="" class="link"> | </a>
-    <a href="https://github.com/BYUCS260/museum-aydelottejoe" class="link"> Github</a>
+    <a href="https://github.com/aydelottejoe/project4.git" class="link"> Github</a>
   </div>
 </div>
 </template>
@@ -38,7 +38,7 @@ body {
 .header {
   display: flex;
   padding: 10px 100px 0px 100px;
-  background-color: #5BDEFF;
+  background-color: #28B463;
   color: #1C454F;
 }
 
@@ -59,7 +59,7 @@ body {
 .footer {
   height: 50px;
   padding: 20px 100px 0px 100px;
-  background: #e3e3e3;
+  background: #28B463;
   font-size: 12px;
 }
 
