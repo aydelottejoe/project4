@@ -19,7 +19,7 @@
     </div>
     <div class="heading">
       <div class="circle">2</div>
-      <h2>Edit/Delete a Photo</h2>
+      <h2>Delete a Photo</h2>
     </div>
     <div class="edit">
       <div class="form">
@@ -65,6 +65,7 @@
   display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
+  margin-top: 20px;
 }
 
 .heading h2 {
@@ -75,6 +76,7 @@
 .add,
 .edit {
   display: flex;
+  margin-left: 50px;
 }
 
 .circle {

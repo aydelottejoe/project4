@@ -6,12 +6,12 @@ import Admin from '../views/Admin.vue'
 Vue.use(VueRouter)
 
 const routes = [{
-    path: '/',
+    path: '/gallery',
     name: 'home',
     component: Home
   },
   {
-    path: '/admin',
+    path: '/',
     name: 'admin',
     component: Admin
   }

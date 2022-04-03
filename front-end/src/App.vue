@@ -14,7 +14,9 @@
     <router-view />
   </div>
   <div class="footer">
-    <router-link to="/admin" class="link">Admin </router-link>
+    <router-link to="/" class="link">Add Photos </router-link>
+    <a href="" class="link"> | </a>    
+    <router-link to="/gallery" class="link"> Gallery </router-link>
     <a href="" class="link"> | </a>
     <a href="https://github.com/aydelottejoe/project4.git" class="link"> Github</a>
   </div>
