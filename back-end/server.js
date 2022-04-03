@@ -55,6 +55,7 @@ app.post('/api/items', async (req, res) => {
     res.send(item);
   } catch (error) {
     console.log(error);
+    console.log("POST ERROR");
     res.sendStatus(500);
   }
 });
@@ -66,6 +67,7 @@ app.get('/api/items', async (req, res) => {
     res.send(items);
   } catch (error) {
     console.log(error);
+    console.log("LIST ERROR");
     res.sendStatus(500);
   }
 });
@@ -80,6 +82,7 @@ app.delete('/api/items/:id', async(req, res) => {
     res.sendStatus(200);
   } catch (error) {
     console.log(error);
+    console.log("DELETE ERROR");
     res.sendStatus(500);
   }
 });

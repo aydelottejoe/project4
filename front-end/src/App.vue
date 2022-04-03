@@ -1,13 +1,10 @@
 <template>
 <div id="app">
   <div class="header">
-    <router-link to="/">
-     <!-- <div class="logo">
-        <img src="/ordinary.png">
-      </div>-->
-    </router-link>
     <div class="title">
-      <h1>Family Photos</h1>
+      <router-link to="/">
+	<h1>Family Photos</h1>
+      </router-link>
     </div>
   </div>
   <div class="content">
@@ -41,7 +38,12 @@ body {
   display: flex;
   padding: 10px 100px 0px 100px;
   background-color: #28B463;
-  color: #1C454F;
+  color: white;
+  text-decoration: none;
+}
+
+.header a {
+  color: white;
 }
 
 .title {
@@ -59,14 +61,14 @@ body {
 
 /* Footer */
 .footer {
-  height: 50px;
+  height: 40px;
   padding: 20px 100px 0px 100px;
   background: #28B463;
   font-size: 12px;
 }
 
 .footer a {
-  color: #000;
+  color: white;
 }
 
 h1 {
