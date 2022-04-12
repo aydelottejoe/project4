@@ -17,7 +17,7 @@ mongoose.connect('mongodb://localhost:27017/museum', {
 // Configure multer so that it will upload to '../front-end/public/images'
 const multer = require('multer')
 const upload = multer({
-  dest: '/var/www/project4.funtimesandhappydays.com/images/',
+  dest: '../front-end/public/images/',
   limits: {
     fileSize: 10000000
   }
@@ -87,4 +87,4 @@ app.delete('/api/items/:id', async(req, res) => {
   }
 });
 
-app.listen(3002, () => console.log('Server listening on port 3002!'));
+app.listen(3000, () => console.log('Server listening on port 3000!'));
